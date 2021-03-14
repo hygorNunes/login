@@ -1,0 +1,6 @@
+{
+    "id": "Int",
+    "nome": "String",
+    "senha": "String",
+    "email": "String"
+}

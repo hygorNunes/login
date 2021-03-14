@@ -1,0 +1,38 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Desafio de criacao de sistema de login",
+  "repository": "https://github.com/hygorNunes/login/",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app --exec \"node -r babel-register\"",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "login",
+    "API",
+    "Rest",
+    "RestFull",
+    "Framework",
+    "OpenSource"
+  ],
+  "author": "Hygor Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hygorNunes/login/issues"
+  },
+  "homepage": "https://github.com/hygorNunes/login#readme",
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
